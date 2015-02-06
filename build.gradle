@@ -2,12 +2,3 @@ apply plugin: 'de.dfki.mary.voicebuilding'
 
 group 'de.dfki.mary'
 version '5.1.2'
-
-voice {
-    name 'enst-camille-hsmm'
-    language 'fr'
-    gender 'female'
-    type 'hsmm'
-    description 'A female French hidden semi-Markov model voice, built at Télécom ParisTech (ENST) using data recorded by Camille Dianoux'
-    samplingRate 16000
-}
