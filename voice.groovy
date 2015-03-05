@@ -1,6 +1,8 @@
 voice {
     name = 'enst-camille-hsmm'
-    language = 'fr'
+    locale {
+        language = 'fr'
+    }
     gender = 'female'
     type = 'hsmm'
     description = 'A female French hidden semi-Markov model voice, built at Télécom ParisTech (ENST) using data recorded by Camille Dianoux'
